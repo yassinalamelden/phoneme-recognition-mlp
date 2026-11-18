@@ -24,3 +24,7 @@ __pycache__/
 
 # submission package (duplicate of the notebook + report)
 Yassin_120230122/
+
+# local copies kept out of the repo (course submission name + study copy)
+Yassin_120230122.ipynb
+Yassin_120230122_annotated.ipynb

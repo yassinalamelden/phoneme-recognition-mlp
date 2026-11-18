@@ -36,8 +36,7 @@ neighbours (a context window).
 
 | Path | Contents |
 |---|---|
-| `Yassin_120230122.ipynb` | the main notebook, with all outputs |
-| `Yassin_120230122_annotated.ipynb` | the same notebook with extra explanatory comments in the code |
+| `phoneme_recognition_mlp.ipynb` | the notebook, with all outputs |
 | `report/report.pdf` | the project report (LaTeX source in `report/report.tex`) |
 | `results/` | figures and result tables (ablation, per-phoneme accuracy, confusions, summary) |
 
@@ -46,7 +45,7 @@ neighbours (a context window).
 1. Install the requirements: Python 3.11, PyTorch 2.6 with CUDA, NumPy, pandas, matplotlib,
    scikit-learn, tqdm. A CUDA GPU with at least 6 GB of memory and 16 GB of RAM are needed.
 2. Download the competition data from Kaggle and extract it to `dataset/11785-f24-hw1p2/`.
-3. Open `Yassin_120230122.ipynb` and click **Run All**. Set `DEBUG = True` first for a quick test.
+3. Open `phoneme_recognition_mlp.ipynb` and click **Run All**. Set `DEBUG = True` first for a quick test.
 
 The notebook creates `cache/` (merged data), `runs/` (one folder per training run, with the weights of
 every epoch), `results/` and `submission.csv`. These are not in the repository because of their size.
