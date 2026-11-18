@@ -1,0 +1,26 @@
+{
+  "final_params": 10519592,
+  "best_dev_acc": 0.8454681143696414,
+  "best_epoch": 19,
+  "total_train_minutes": 67.577168738842,
+  "config": {
+    "K": 20,
+    "use_cmvn": true,
+    "hidden": [
+      2048,
+      2048,
+      1024,
+      1024,
+      512,
+      512
+    ],
+    "batchnorm": true,
+    "dropout": 0.2,
+    "activation": "gelu",
+    "optimizer": "adamw",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "scheduler": true,
+    "epochs": 20
+  }
+}
